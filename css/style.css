@@ -1,0 +1,81 @@
+/* global */
+
+* { 
+  box-sizing: border-box;
+  margin: 0; 
+  padding: 0;
+}
+.container {
+  width: 80%;
+}
+
+.btn {
+  display: inline-block;
+  color: #fff;
+  background: #FDCF33;
+  padding: 0.5rem 2rem;
+  border: none;
+  border-radius: 5px;
+}
+body {
+  line-height: 1.4;
+}
+.btn:hover {
+  background: #FFE94D;
+}
+
+.btn-dark {
+  background: #333;
+  color: #fff;
+}
+
+/* header */
+#hero {
+  position: absolute;
+  background-image: url("https://images.pexels.com/photos/374811/pexels-photo-374811.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260");
+  background-position: center center;
+  background-size: cover;
+  width: 100%;
+  margin-top: -80px;
+  color: #fff;
+}
+
+#hero-content {
+  display: flex;
+  background-color: rgba(0, 0, 0, 0.4);
+  flex-direction: column;
+  justify-content: center;
+  padding: 200px;
+  text-align: center;
+  align-items: center;
+}
+
+#hero-content h1 {
+  font-size: 4rem;
+}
+
+#navbar {
+  display: flex;
+  color: #fff; 
+  position: sticky; 
+  z-index: 3000; 
+  justify-content: space-between;
+}
+#navbar ul {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  padding-top: 20px;
+  justify-content: space-between;
+}
+#navbar ul li a {
+  color: #fff;
+  padding: .75rem;
+  margin: 0 .25rem;
+}
+#navbar ul li a:hover {
+  background: #FDCF33;
+  border-radius: 5px;
+}
+
+/*# sourceMappingURL=style.css.map */

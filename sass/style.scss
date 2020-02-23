@@ -1,0 +1,58 @@
+/* global */
+
+.btn {
+    display: inline-block;
+    color: #fff;
+    background: #FDCF33;
+    padding: 0.5rem 2rem;
+    border: none;
+    border-radius: 5px;
+  }
+
+  .btn:hover {
+    background: #FFE94D;
+  }
+  
+  .btn-dark {
+    background: #333;
+    color: #fff;
+  }
+/* header */
+
+#hero {
+    position: absolute;
+    background-image: url("https://images.pexels.com/photos/374811/pexels-photo-374811.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260");
+    background-position: center center;
+    background-size: cover;
+    width: 100%;
+    margin-top: -80px;
+    color: #fff;
+    // height: 100vh;
+}
+
+#navbar {
+    display: flex;
+    justify-content: space-around;
+    z-index: 2000;
+    color: #fff;
+    position: sticky; 
+}
+
+#navbar ul {
+    display: flex;
+    list-style: none;
+    
+
+}
+
+#navbar ul li {
+    display: flex;   
+    justify-content: space-between;
+    padding: 20px;
+
+}
+nav {
+    display: flex;
+    color: #fff;
+    
+}
